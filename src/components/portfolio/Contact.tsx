@@ -12,7 +12,7 @@ export function Contact() {
     const body = encodeURIComponent(
       `${data.get("message") || ""}\n\n— ${data.get("name") || ""} (${data.get("email") || ""})`
     );
-    window.location.href = `mailto:aprajita.srivastava@cuny.edu?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:aprajita0625@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
@@ -30,8 +30,8 @@ export function Contact() {
           <ul className="space-y-3 text-sm mt-auto">
             <ContactRow
               icon={<Mail className="h-4 w-4" />}
-              label="aprajita.srivastava@cuny.edu"
-              href="mailto:aprajita.srivastava@cuny.edu"
+              label="aprajita0625@gmail.com"
+              href="mailto:aprajita0625@gmail.com"
             />
             <ContactRow
               icon={<Linkedin className="h-4 w-4" />}
